@@ -34,6 +34,14 @@ li {
     background-color: #CE93D8;;
 }
 
-.contact-me {
-    background-color: aqua;
+.card{
+    background-color: #ffd3fd;
+}
+
+.bg-body-tertiary {
+    background-image: url(https://images.pling.com/img/00/00/59/57/30/1471961/ca433c51d5fab3fc30bef50c2d83e337cc737bd7e42462f1ed5094bf5f6ec27fd6a0.jpg);
+}
+h2 {
+    box-shadow: 1px 1px 3px 3px pink;
+    border-radius: 1%;
 }
