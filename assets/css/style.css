@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+--main-purple: ;
+--main-pink: ;
+--light-orange: rgb(242, 195, 168);
+--main-orange:
+}
+body {
+    background-color: var(--light-orange);
+
+}
+
