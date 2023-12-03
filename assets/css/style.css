@@ -9,7 +9,31 @@
 --main-orange:
 }
 body {
-    background-color: var(--light-orange);
+    background-color: #CE93D8;
 
 }
 
+.img-fluid {
+    max-width: 25%;
+    box-shadow: 1px 1px 3px 3px lightpink;
+    border-radius: 40%;
+    align-content: center;
+}
+
+footer a:hover {
+box-shadow: 3px 3px 3px 3px #121212;
+border-radius: 4%;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.card-header {
+    background-color: #CE93D8;;
+}
+
+.contact-me {
+    background-color: aqua;
+}
