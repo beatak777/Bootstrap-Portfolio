@@ -9,10 +9,19 @@
 --main-orange:
 }
 body {
-    background-color: #CE93D8;
+    background-color:  #FCCAE2;
 
 }
 
+a {
+    color: chocolate;
+}
+
+a:hover {
+    box-shadow: 3px 3px 3px 3px #121212;
+    border-radius: 4%;
+    color: purple;
+}
 .img-fluid {
     max-width: 25%;
     box-shadow: 1px 1px 3px 3px lightpink;
@@ -30,12 +39,17 @@ li {
 
 }
 
-.card-header {
-    background-color: #CE93D8;;
+.card {
+    background-color: #FCD6ED;
+    margin-bottom: 10px;
+    filter: drop-shadow( 1px 1px  darkorange);
+    border-color: darkorange;
 }
 
-.card{
-    background-color: #ffd3fd;
+.card-header{
+    background-color:  #FF949B;
+    filter: drop-shadow( 1px 3px  darkorange);
+   
 }
 
 .bg-body-tertiary {
@@ -44,4 +58,14 @@ li {
 h2 {
     box-shadow: 1px 1px 3px 3px pink;
     border-radius: 1%;
+    color: #FF949B;
+    filter: drop-shadow( 1px 1px  darkorange);
+ 
 }
+
+.btn-primary {
+    text-decoration: none;
+    color: rgb(14, 6, 3);
+}
+
+
