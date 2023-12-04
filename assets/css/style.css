@@ -14,14 +14,23 @@ body {
 }
 
 a {
+    color: purple;
+}
+
+a.nav-link {
     color: chocolate;
+    
+}
+a.nav-link:hover {
+    box-shadow: 3px 3px 3px 3px chocolate;
+border-radius: 4%;
+
 }
 
 a:hover {
-    box-shadow: 3px 3px 3px 3px #121212;
-    border-radius: 4%;
     color: purple;
 }
+
 .img-fluid {
     max-width: 25%;
     box-shadow: 1px 1px 3px 3px lightpink;
@@ -30,7 +39,7 @@ a:hover {
 }
 
 footer a:hover {
-box-shadow: 3px 3px 3px 3px #121212;
+box-shadow: 3px 3px 3px 3px chocolate;
 border-radius: 4%;
 }
 
@@ -52,6 +61,10 @@ li {
    
 }
 
+p {
+    margin-top: 25px;
+}
+
 .bg-body-tertiary {
     background-image: url(https://images.pling.com/img/00/00/59/57/30/1471961/ca433c51d5fab3fc30bef50c2d83e337cc737bd7e42462f1ed5094bf5f6ec27fd6a0.jpg);
 }
@@ -60,12 +73,16 @@ h2 {
     border-radius: 1%;
     color: #FF949B;
     filter: drop-shadow( 1px 1px  darkorange);
- 
 }
 
 .btn-primary {
     text-decoration: none;
-    color: rgb(14, 6, 3);
+    color: chocolate;
+    background-color: #FF949B;
+}
+
+.btn-primary.border:hover {
+    background-color: chocolate;
 }
 
 
