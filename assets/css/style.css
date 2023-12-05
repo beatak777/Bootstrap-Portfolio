@@ -4,30 +4,31 @@
 }
 
 :root {
-    --main-purple: ;
-    --main-pink: ;
+    --main-purple: purple;
+    --main-pink: #FCCAE2;
     --light-orange: rgb(242, 195, 168);
-    --main-color:
+    --main-color: chocolate;
+    --dark-orange: darkorange;
 }
 
 body {
-    background-color: #FCCAE2;
+    background-color: var(--main-pink);
 
 }
 
 a {
-    color: purple;
+    color: var(--main-purple);
 }
 
 a.nav-link {
-    color: chocolate;
+    color: var(--main-color);
 
 }
 
 a.nav-link:hover {
-    box-shadow: 3px 3px 3px 3px chocolate;
+    box-shadow: 3px 3px 3px 3px var(--main-color);
     border-radius: 4%;
-    color: purple;
+    color: var(--main-purple);
 
 }
 
@@ -37,7 +38,7 @@ a.nav-link:hover {
 }
 
 footer a:hover {
-    box-shadow: 3px 3px 3px 3px chocolate;
+    box-shadow: 3px 3px 3px 3px var(--main-color);
     border-radius: 4%;
 
 }
@@ -50,13 +51,13 @@ li {
 .card {
     background-color: #FCD6ED;
     margin-bottom: 10px;
-    filter: drop-shadow(1px 1px darkorange);
-    border-color: darkorange;
+    filter: drop-shadow(1px 1px var(--dark-orange));
+    border-color: var(--dark-orange);
 }
 
 .card-header {
     background-color: #FF949B;
-    filter: drop-shadow(1px 3px darkorange);
+    filter: drop-shadow(1px 3px var(--dark-orange));
 
 }
 
@@ -68,15 +69,15 @@ h2 {
     box-shadow: 1px 1px 3px 3px pink;
     border-radius: 1%;
     color: #FF949B;
-    filter: drop-shadow(1px 1px darkorange);
+    filter: drop-shadow(1px 1px var(--dark-orange));
 }
 
 .btn-primary {
     text-decoration: none;
-    color: chocolate;
+    color: var(--main-color);
     background-color: #FF949B;
 }
 
 .btn-primary.border:hover {
-    background-color: chocolate;
+    background-color: var(--main-color);
 }
