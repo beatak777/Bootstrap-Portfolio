@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
---main-purple: ;
---main-pink: ;
---light-orange: rgb(242, 195, 168);
---main-orange:
+    --main-purple: ;
+    --main-pink: ;
+    --light-orange: rgb(242, 195, 168);
+    --main-color:
 }
+
 body {
-    background-color:  #FCCAE2;
+    background-color: #FCCAE2;
 
 }
 
@@ -19,28 +21,25 @@ a {
 
 a.nav-link {
     color: chocolate;
-    
+
 }
+
 a.nav-link:hover {
     box-shadow: 3px 3px 3px 3px chocolate;
-border-radius: 4%;
-
-}
-
-a:hover {
+    border-radius: 4%;
     color: purple;
+
 }
 
 .img-fluid {
-    max-width: 25%;
     box-shadow: 1px 1px 3px 3px lightpink;
     border-radius: 40%;
-    align-content: center;
 }
 
 footer a:hover {
-box-shadow: 3px 3px 3px 3px chocolate;
-border-radius: 4%;
+    box-shadow: 3px 3px 3px 3px chocolate;
+    border-radius: 4%;
+
 }
 
 li {
@@ -51,28 +50,25 @@ li {
 .card {
     background-color: #FCD6ED;
     margin-bottom: 10px;
-    filter: drop-shadow( 1px 1px  darkorange);
+    filter: drop-shadow(1px 1px darkorange);
     border-color: darkorange;
 }
 
-.card-header{
-    background-color:  #FF949B;
-    filter: drop-shadow( 1px 3px  darkorange);
-   
-}
+.card-header {
+    background-color: #FF949B;
+    filter: drop-shadow(1px 3px darkorange);
 
-p {
-    margin-top: 25px;
 }
 
 .bg-body-tertiary {
     background-image: url(https://images.pling.com/img/00/00/59/57/30/1471961/ca433c51d5fab3fc30bef50c2d83e337cc737bd7e42462f1ed5094bf5f6ec27fd6a0.jpg);
 }
+
 h2 {
     box-shadow: 1px 1px 3px 3px pink;
     border-radius: 1%;
     color: #FF949B;
-    filter: drop-shadow( 1px 1px  darkorange);
+    filter: drop-shadow(1px 1px darkorange);
 }
 
 .btn-primary {
